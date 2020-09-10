@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
 }
-
+body {
+    overflow: hidden;
+}
 a {
     text-decoration: none;
     color: blue;
@@ -16,7 +18,8 @@ ul {
 
 .grid-container {
     padding: 15em;
-    padding-top: 3em;
+    padding-top: 0em;
+    margin-top: 3em;
     display: grid;
     grid-template-columns: 3fr 7fr 1fr;
 }
