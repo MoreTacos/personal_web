@@ -1,0 +1,42 @@
+[tldr]
+desc = "18 y/o machine learning and computer graphics developper"
+looking = "Searching for Summer 2021 lab position"
+
+[[now]]
+high = "Making"
+desc = "a from scratch fluid simulation with Rust and Vulkan"
+link = "https://davideradaelli.substack.com/p/get-obsessed-with-simple-things"
+[[now]]
+high = "Reading"
+desc = "various SIGGRAPH research papers"
+link = "#"
+[[now]]
+high = "Explaining"
+desc = "math intuitively using Manim"
+link = "https://www.youtube.com/watch?v=vl9jIeb95Sc"
+
+[[work]]
+name = "Toronto Gymnastics International"
+tldr = "Gymnastics Coach"
+desc = """I worked as a gymnastics coach nearly 3 years. Every day I came in with the mindset: "How can I influence these kids towards success?". I believe that only a handful of people (2 to 4) have any meaningful impact on peoples lives, and hopefully I was one of those people for the kids I coached. What if I was teaching my own kid? Or yours? There's something special about being genuine when teaching that makes it so great and rewarding. I don't coach anymore but I've moved on to other things I enjoy."""
+
+[[done]]
+high = "Animated"
+desc = "a video with Manim to explain the arc-length formula"
+link = "https://www.youtube.com/watch?v=EA4UFhb9o4s"
+[[done]]
+high = "Rendering"
+desc = "a Sierpinski triangle using OpenGL"
+link = "https://daviderad.com/blog/sierpinski-triangle.html"
+[[done]]
+high = "Used"
+desc = "GPT2 to generate some Paul Graham essays"
+link = "https://www.youtube.com/watch?v=iLrD0E1R1Zg"
+[[done]]
+high = "Wrote"
+desc = "a simple explanation for an NLP research paper"
+link = "https://medium.com/@daviderad/the-intuition-behind-ernie-2-0-a-pre-training-framework-for-language-understanding-bd28760e401e"
+[[done]]
+high = "Created"
+desc = "an anime face generator using a GAN to help me draw"
+link = "https://medium.com/@daviderad/automatic-anime-face-generator-376a27ad1518"

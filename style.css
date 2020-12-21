@@ -209,3 +209,7 @@ i {
         display: block;
     }
 }
+
+* {
+    * color: red;
+    * }

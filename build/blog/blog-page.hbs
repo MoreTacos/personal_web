@@ -20,17 +20,9 @@
         <div class="column-left">
             <h1>Blog Archive</h1>
             <ul>
-                
-                    <li><a href="./blog/vulkan-specs.html">Learn Vulkan by Diving into the Specs</a></li>
-                
-                    <li><a href="./blog/rust-in-cg.html">Reasons Rust is Ideal for CG Research</a></li>
-                
-                    <li><a href="./blog/sierpinski-triangle.html">Simple Intuitive Explanation on how to Render a Sierpinski Triangle with OpenGL</a></li>
-                
-                    <li><a href="./blog/anime-face.html">Automatic Anime Face Generator</a></li>
-                
-                    <li><a href="./blog/ernie-intuitive.html">The intuition for ERNIE 2.0 — Language Understanding</a></li>
-                
+                {{#each this}}
+                    <li><a href="./blog/{{link}}.html">{{title}}</a></li>
+                {{/each}}
             </ul>
         </div>
         <div class="column-center">
@@ -45,4 +37,3 @@
 </body>
 
 </html>
-

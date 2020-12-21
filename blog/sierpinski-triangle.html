@@ -11,34 +11,54 @@
 
 	<main class="grid-container">
 		<div class="column-left">
-            <h1>Simple Intuitive Explanation on how to Render a Sierpinski Triangle with OpenGL</h1>
-            <p>While learning OpenGL over at <a href="https://learnopengl.com/">learnopengl.com</a>, I came across the following images in the comment section.</p>
-            <img src="../images/comment.png" alt="Comment of neat Sierpinski triangles">
-            <p>The form these figures take is called a sierpinski triangle, and I thought about how I could recreate them. Clearly a simple recursion algorithm was at work.</p>
-            <h1>How to draw a Sierpinski triangle</h1>
-            <p>It’s a fractal (duh) and to complete an iteration, we must basically replace every triangle with a triforce version of itself.</p>
-            <img src="../images/triforce.png" alt="triforce-afy">
-            <p>Mathematically, this is equivalent to using the midpoint of each side as the vertices of a new triangle. This leaves us with three triangles, each being a quarter of the area of the original.</p>
-            <h1>OpenGL in a Nutshell</h1>
-            <p><i>The process of using OpenGL can be summarized as follows:</i></p>
-            <p>First, you create an array of 3d vertex data you will use to render a bunch of triangles later on. That data will then be sent to the GPU and run through a pipeline of small, sometimes customizable programs called “shaders”. These programs figure out how to translate the input vertex data into the position and color of the pixels on your screen.</p>
-            <p>The two main levers developers can pull are:</p>
-            <ul>
-                <li>The vertex data we send in</li>
-                <li>The code used to run the shaders</li>
-            </ul>
-            <p>In this case we can safely use standard shaders and focus on the vertex data.</p>
-            <h1>The Recursive Function</h1>
-            <p>Our goal is to create a function where given the three corners of a triangle and the amount of iteration we wish to perform, it will output an array containing the mesh of triangles that form the fractal.</p>
-            <p>But first - let’s set up some classes to simplify our job. I will set up a Point class (with member values x, y and z) and I will also set up a vertex class that will be used as an interface to safely manipulate the final vertex data, with a function addTriangle that will take care of adding a single triangle to the mesh.</p>
-            <p>Using these classes, we can implement a recursive function addSierpinski, with the following logic:</p>
-            <img src="../images/code.PNG" alt="code">
-            <p>We effectively add the mathematical implementation of the sierpinski triangle, followed by some additional logic that allows us to input the amount of recursions we wish to be performed.</p>
-            <h1>Final Result</h1>
-            <img src="../images/triangle.PNG" alt="final-triangle">
-            <h1 style="padding-top: 2em;">Edit 1</h1>
-            <p>Refactored Sierpinski function to be 3D</p>
-            <img src="../images/sierpinski_pyramid.png" alt="Pyramid" style="max-width: 300px;">
+<h1 id="simple-intuitive-explanation-on-how-to-render-a-sierpinski-triangle-with-opengl">Simple Intuitive Explanation on how to Render a Sierpinski Triangle with OpenGL</h1>
+<p><em>Sep 9, 2020</em></p>
+<p>While learning OpenGL over at <a href="https://learnopengl.com/">learnopengl.com</a>, I came across the following images in the comment section.</p>
+<figure>
+<img src="../images/comment.png" alt="funny comments" /><figcaption>funny comments</figcaption>
+</figure>
+<p>The form these figures take is called a sierpinski triangle, and I thought about how I could recreate them. Clearly a simple recursion algorithm was at work.</p>
+<h1 id="how-to-draw-a-sierpinski-triangle">How to draw a Sierpinski triangle</h1>
+<p>It’s a fractal (duh) and to complete an iteration, we must basically replace every triangle with a triforce version of itself.</p>
+<figure>
+<img src="../images/triforce.png" alt="triforce" /><figcaption>triforce</figcaption>
+</figure>
+<p>Mathematically, this is equivalent to using the midpoint of each side as the vertices of a new triangle. This leaves us with three triangles, each being a quarter of the area of the original.</p>
+<h1 id="opengl-in-a-nutshell">OpenGL in a Nutshell</h1>
+<p><em>The process of using OpenGL can be summarized as follows:</em></p>
+<p>First, you create an array of 3d vertex data you will use to render a bunch of triangles later on. That data will then be sent to the GPU and run through a pipeline of small, sometimes customizable programs called “shaders”. These programs figure out how to translate the input vertex data into the position and color of the pixels on your screen.</p>
+<p>The two main levers developers can pull are:</p>
+<ol type="1">
+<li>The vertex data we send in</li>
+<li>The code used to run the shaders</li>
+</ol>
+<p>In this case we can safely use standard shaders and focus on the vertex data.</p>
+<h1 id="the-recursive-function">The Recursive Function</h1>
+<p>Our goal is to create a function where given the three corners of a triangle and the amount of iteration we wish to perform, it will output an array containing the mesh of triangles that form the fractal.</p>
+<p>But first - let’s set up some classes to simplify our job. I will set up a Point class (with member values x, y and z) and I will also set up a vertex class that will be used as an interface to safely manipulate the final vertex data, with a function addTriangle that will take care of adding a single triangle to the mesh.</p>
+<p>Using these classes, we can implement a recursive function addSierpinski, with the following logic:</p>
+<pre class="brush: Rust" name="code">
+void addSierpinski(Point a, Point b, Point c, int level, Vertices& vertices)
+{
+    Point m0, m1, m2;
+    if (level > 0)
+    {
+        m0.x = (a.x + b.x)/2.0;
+    } else {
+        addTriangle(a,b,c,vertices);
+    }
+}
+</pre>
+<p>We effectively add the mathematical implementation of the sierpinski triangle, followed by some additional logic that allows us to input the amount of recursions we wish to be performed.</p>
+<h1 id="final-result">Final Result</h1>
+<figure>
+<img src="../images/triangle.PNG" alt="sierpinski 2d" /><figcaption>sierpinski 2d</figcaption>
+</figure>
+<h1 id="edit-1">Edit 1</h1>
+<p>Refactored Sierpinski function to be 3D</p>
+<figure>
+<img src="../images/sierpinski_pyramid.png" alt="sierpinski 3d" /><figcaption>sierpinski 3d</figcaption>
+</figure>
         </div>
 		<div class="column-center">
 			<ul>
