@@ -3,14 +3,14 @@
 
 While learning OpenGL over at [learnopengl.com](https://learnopengl.com/), I came across the following images in the comment section.
 
-![funny comments](../images/comment.png)
+![Funny Comments on LearnOpenGL](../images/comment.jpg)
 
 The form these figures take is called a sierpinski triangle, and I thought about how I could recreate them. Clearly a simple recursion algorithm was at work.
 
 # How to draw a Sierpinski triangle
 It’s a fractal (duh) and to complete an iteration, we must basically replace every triangle with a triforce version of itself.
 
-![triforce](../images/triforce.png)
+![The Triforce](../images/triforce.jpg)
 
 Mathematically, this is equivalent to using the midpoint of each side as the vertices of a new triangle. This leaves us with three triangles, each being a quarter of the area of the original.
 
@@ -49,9 +49,9 @@ void addSierpinski(Point a, Point b, Point c, int level, Vertices& vertices)
 We effectively add the mathematical implementation of the sierpinski triangle, followed by some additional logic that allows us to input the amount of recursions we wish to be performed.
 
 # Final Result
-![sierpinski 2d](../images/triangle.PNG)
+![Sierpinski 2D](../images/triangle.jpg)
 
 # Edit 1
 Refactored Sierpinski function to be 3D
 
-![sierpinski 3d](../images/sierpinski_pyramid.png)
+![Sierpinski 3D](../images/sierpinski_pyramid.jpg)

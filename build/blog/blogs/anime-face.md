@@ -3,7 +3,7 @@
 
 I suck at drawing. But I’m good at designing AI networks, meaning I’m actually really good at drawing.
 
-![result](../images/gan-anime.png)
+![The Result](../images/gan-anime.jpg)
 
 Just make sure not to look too closely...
 
@@ -21,7 +21,7 @@ I then rescaled the images to be 64x64 pixels and only used images from after 20
 
 ---
 
-![bounding box example](../images/bounding-box.png)
+![Bounding Box Example](../images/bounding-box.jpg)
 
 And then finally, with around 20 000 images in the dataset, I went in manually and removed some of the undesired images.
 
@@ -37,15 +37,15 @@ It takes in a 3d tensor with dimensions 3x64x64, which represents the three colo
 
 1- A 2d convolutional transpose, which is a math operation that looks like this:
 
-![convulution animation](../images/conv.gif)
+![Convolution Animation](../images/conv.gif)
 
 2- A batch normalization, which you can imagine as taking the input to the layer and then transforming then so they hover around 0 with a standard deviation of 1, like in this image:
 
-![batch norm](../images/batch-norm.png)
+![Batch Normalization](../images/batch-norm.jpg)
 
 3- And then a ReLU activation function to get rid of the negatives:
 
-![relu](../images/relu.png)
+![ReLU Function](../images/relu.jpg)
 
 ## GAN
 
@@ -54,7 +54,7 @@ The GAN acts as a framework to capture the training data’s distribution so we 
 These two enter in a competition, where the generator gets better at outsmarting the discriminator, and the discriminator gets better at spotting the fakes. The ideal ending of this competition, what is what we call the ‘equilibrium’ or ‘solution’ and its the point where the discriminator always guesses 50/50 that the image shown is real (since the generator becomes perfect).
 Image for post
 
-![discriminator](../images/discriminator.jpeg)
+![Discriminator](../images/discriminator.jpeg)
 
 At the end of the training, you can throw out the discriminator and use the generator to synthesize anime face images!
 

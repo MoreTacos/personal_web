@@ -15,13 +15,13 @@
 <p><em>Sep 9, 2020</em></p>
 <p>While learning OpenGL over at <a href="https://learnopengl.com/">learnopengl.com</a>, I came across the following images in the comment section.</p>
 <figure>
-<img src="../images/comment.png" alt="funny comments" /><figcaption>funny comments</figcaption>
+<img src="../images/comment.jpg" alt="Funny Comments on LearnOpenGL" /><figcaption>Funny Comments on LearnOpenGL</figcaption>
 </figure>
 <p>The form these figures take is called a sierpinski triangle, and I thought about how I could recreate them. Clearly a simple recursion algorithm was at work.</p>
 <h1 id="how-to-draw-a-sierpinski-triangle">How to draw a Sierpinski triangle</h1>
 <p>It’s a fractal (duh) and to complete an iteration, we must basically replace every triangle with a triforce version of itself.</p>
 <figure>
-<img src="../images/triforce.png" alt="triforce" /><figcaption>triforce</figcaption>
+<img src="../images/triforce.jpg" alt="The Triforce" /><figcaption>The Triforce</figcaption>
 </figure>
 <p>Mathematically, this is equivalent to using the midpoint of each side as the vertices of a new triangle. This leaves us with three triangles, each being a quarter of the area of the original.</p>
 <h1 id="opengl-in-a-nutshell">OpenGL in a Nutshell</h1>
@@ -52,12 +52,12 @@ void addSierpinski(Point a, Point b, Point c, int level, Vertices& vertices)
 <p>We effectively add the mathematical implementation of the sierpinski triangle, followed by some additional logic that allows us to input the amount of recursions we wish to be performed.</p>
 <h1 id="final-result">Final Result</h1>
 <figure>
-<img src="../images/triangle.PNG" alt="sierpinski 2d" /><figcaption>sierpinski 2d</figcaption>
+<img src="../images/triangle.jpg" alt="Sierpinski 2D" /><figcaption>Sierpinski 2D</figcaption>
 </figure>
 <h1 id="edit-1">Edit 1</h1>
 <p>Refactored Sierpinski function to be 3D</p>
 <figure>
-<img src="../images/sierpinski_pyramid.png" alt="sierpinski 3d" /><figcaption>sierpinski 3d</figcaption>
+<img src="../images/sierpinski_pyramid.jpg" alt="Sierpinski 3D" /><figcaption>Sierpinski 3D</figcaption>
 </figure>
         </div>
 		<div class="column-center">

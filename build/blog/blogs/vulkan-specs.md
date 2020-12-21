@@ -3,7 +3,7 @@
 
 A few weeks ago, I started learning about [Vulkano](https://github.com/vulkano-rs/vulkano), which is a safe Rust wrapper around the Vulkan graphics API. I debated whether starting with OpenGL was a better choice, but stuck with Vulkan in the end because it better reflects the process of running programs on graphics hardware architectures.
 
-![vulkan](../images/vulkan.png)
+![Vulkan Custom Logo](../images/vulkan.jpg)
 
 Learning OpenGL is not the best thing to do if you wish to learn solid graphics programming, because it doesn't really explain what's going on. Rather, all these books and tutorials teach by example and quickly show how to do something, but not what that something means. And honestly I think it's a good thing they don't explain the background! OpenGL is inherently confusing because it tries to support all features and new graphics programming paradigms from the last two decades. There are many ways to do many things, and in the case when a feature isn't supported, it silently falls back to software emulation, or worse just flags an error and refuses to work.
 
@@ -51,7 +51,7 @@ Image: A resource that represents a multi-dimensional formatted interpretation o
 
 Perfect! The concept has been fully reduced to components I believe I understand. For reference this is a mipmap:
 
-![mipmap](../images/mipmap.png)
+![Example of a MipMap](../images/mipmap.jpg)
 
 Now that the concept has been reduced to its bases in a tree-like structure, I can slowly go back up the tree, making sure I fully understand each component intuitively.
 
