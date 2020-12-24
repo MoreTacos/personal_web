@@ -1,6 +1,6 @@
 #!/bin/zsh
 cd ./blog/blog-compile/
-cargo b --release -q
+cargo b --release
 cp ./target/release/personal-web ../
 cd ./..
 ./personal-web > ../../blog.html

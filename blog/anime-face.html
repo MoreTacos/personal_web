@@ -15,7 +15,7 @@
 <p><em>Dec 2, 2019</em></p>
 <p>I suck at drawing. But I’m good at designing AI networks, meaning I’m actually really good at drawing.</p>
 <figure>
-<img src="../images/gan-anime.jpg" alt="The Result" /><figcaption>The Result</figcaption>
+<img src="../images/gan-anime.jpg" alt="The Result" /><figcaption aria-hidden="true">The Result</figcaption>
 </figure>
 <p>Just make sure not to look too closely…</p>
 <p>So what I did here is really self-explanatory. I feed in a bunch of data from really good artists into an AI called a deep convolutional generative adversarial network (DCGAN), and the network learned to reuse the features of the faces, like hair and eye shape but in different combinations to synthesize new images.</p>
@@ -27,7 +27,7 @@
 <p>I then rescaled the images to be 64x64 pixels and only used images from after 2010 since they were of the highest quality.</p>
 <hr />
 <figure>
-<img src="../images/bounding-box.jpg" alt="Bounding Box Example" /><figcaption>Bounding Box Example</figcaption>
+<img src="../images/bounding-box.jpg" alt="Bounding Box Example" /><figcaption aria-hidden="true">Bounding Box Example</figcaption>
 </figure>
 <p>And then finally, with around 20 000 images in the dataset, I went in manually and removed some of the undesired images.</p>
 <h1 id="building-and-training-the-ai">Building and training the AI</h1>
@@ -37,21 +37,21 @@
 <p>It takes in a 3d tensor with dimensions 3x64x64, which represents the three color channels of the images (red, green blue) and the resolution (64x64) and passes the values through a bunch of convolutional layers, which are made up of:</p>
 <p>1- A 2d convolutional transpose, which is a math operation that looks like this:</p>
 <figure>
-<img src="../images/conv.gif" alt="Convolution Animation" /><figcaption>Convolution Animation</figcaption>
+<img src="../images/conv.gif" alt="Convolution Animation" /><figcaption aria-hidden="true">Convolution Animation</figcaption>
 </figure>
 <p>2- A batch normalization, which you can imagine as taking the input to the layer and then transforming then so they hover around 0 with a standard deviation of 1, like in this image:</p>
 <figure>
-<img src="../images/batch-norm.jpg" alt="Batch Normalization" /><figcaption>Batch Normalization</figcaption>
+<img src="../images/batch-norm.jpg" alt="Batch Normalization" /><figcaption aria-hidden="true">Batch Normalization</figcaption>
 </figure>
 <p>3- And then a ReLU activation function to get rid of the negatives:</p>
 <figure>
-<img src="../images/relu.jpg" alt="ReLU Function" /><figcaption>ReLU Function</figcaption>
+<img src="../images/relu.jpg" alt="ReLU Function" /><figcaption aria-hidden="true">ReLU Function</figcaption>
 </figure>
 <h2 id="gan">GAN</h2>
 <p>The GAN acts as a framework to capture the training data’s distribution so we can generate new data from that same distribution. In a GAN, there is a generator and a discriminator. The job of the generator is to synthesize fake images that look like the training data. The job of the discriminator is to look at an image and output whether it is a real training image or a fake from the generator.</p>
 <p>These two enter in a competition, where the generator gets better at outsmarting the discriminator, and the discriminator gets better at spotting the fakes. The ideal ending of this competition, what is what we call the ‘equilibrium’ or ‘solution’ and its the point where the discriminator always guesses 50/50 that the image shown is real (since the generator becomes perfect). Image for post</p>
 <figure>
-<img src="../images/discriminator.jpeg" alt="Discriminator" /><figcaption>Discriminator</figcaption>
+<img src="../images/discriminator.jpeg" alt="Discriminator" /><figcaption aria-hidden="true">Discriminator</figcaption>
 </figure>
 <p>At the end of the training, you can throw out the discriminator and use the generator to synthesize anime face images!</p>
 <h1 id="key-takeaways">Key Takeaways</h1>
