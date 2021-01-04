@@ -46,11 +46,19 @@ fn main() -> Result<(), Box<dyn Error>> {
                 let year = str_date.split(" ").last().unwrap();
                 let str_month = str_date.split(" ").nth(0).unwrap();
                 let month = match str_month {
+                    "Jan" => 1,
+                    "Feb" => 2,
+                    "Mar" => 3,
+                    "Apr" => 4,
+                    "Mai" => 5,
+                    "Jun" => 6,
+                    "Jul" => 7,
+                    "Aug" => 8,
                     "Sep" => 9,
                     "Oct" => 10,
                     "Nov" => 11,
                     "Dec" => 12,
-                    _ => 0,
+                    _ => 1,
                 };
                 let day = str_date.split(" ").nth(1).unwrap().split(",").nth(0).unwrap();
                 let date = NaiveDate::from_ymd(
