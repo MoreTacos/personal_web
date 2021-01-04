@@ -14,15 +14,10 @@ Let me give an example. I wanted to teach myself differential geometry, and whil
 I feel the most appropriate way for me to end this blog is to end with a list of content that I would personally recommend. Maybe start your own list?
 
 - 3blue1brown videos. Amazing on giving intuition for concepts you though we’re complicated
-
 - Frederic Schuller’s lectures on the geometric anatomy of theoretical physics. The entire course is about having a perfectly precise understanding of spacetime.
-
 - Physics, Topology, Logic and Computation: A Rosetta Stone. A nice resource that translates concepts from Category Theory to physics, topology, logic and computation.
-
 - The Man Who Loved Only Numbers. A biography of Paul Erdos, one of the most interesting mathematicians.
-
 - Learn you a haskell for the great good! Introduction to haskell, functional programming, and category theory. Very enjoyable book to go through.
-
 - Arrows, Structures and Functors: The Categorical Imperative. Introduction to category theory, introduces a whole new way of thinking about math. Makes you think a ton about simple things.
 
 For more recommendations, feel free to reach out to me. Let me know if you try it out.
