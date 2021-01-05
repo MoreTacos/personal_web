@@ -5,7 +5,7 @@ There is an awful paradox when it comes to self learning math: we’re often sug
 
 What can we do about this? My solution is One Textbook A Day. First, whenever someone recommends something to me, I add it to a list. I’ve accumulated a long list of math related content from recommendations. Some textbooks, some playlists, some fiction books, some lectures, some youtube videos. Nearly 150 in all.
 
-Then on most nights, I run a python script to randomly output one of the entries. I consume the content for ~45 minutes. I’m very focused when reading, and I’m not afraid to go on tangents to search up terms I don’t understand. Everytime I learn something new. Some of the material on the list is way beyond my level, and others are way below me. However, even when reading something beyond or below you, you can still learn a lot.
+Then on most nights, I run a [python script](https://github.com/MoreTacos/random_math) to randomly output one of the entries. I consume the content for ~45 minutes. I’m very focused when reading, and I’m not afraid to go on tangents to search up terms I don’t understand. Everytime I learn something new. Some of the material on the list is way beyond my level, and others are way below me. However, even when reading something beyond or below you, you can still learn a lot.
 
 It feels like artificially growing a passion for a topic. Sometimes what I read isn’t good, but other times I end up enjoying it so much that I add it permanently to my schedule.
 
