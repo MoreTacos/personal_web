@@ -1,22 +1,22 @@
-# I Want To Cure Ageing
+# I Want To Cure Ageing | Computational Longevity
 *Jan 9, 2021*
 
 I want to cure ageing. Here's my hypothesis on how to do it:
 
-- I can cure ageing by experimenting directly on humans.
-- I can experiment on humans by experimenting on simulations of humans.
-- I can simulate humans by understanding the process of chemical evolution.
-- I can understand chemical evolution by using an AI network to brute force the evolution of initial molecule systems.
+- I can cure ageing by experimenting directly on humans without restrictions.
+- I can experiment on humans by experimenting on simulations of human cells, tissues and organs.
+- I can simulate human cells, tissues and organs by understanding the process of chemical evolution.
+- I can understand and find a valid process of chemical evolution by using AI to brute force the evolution of initial molecule systems.
 
 Let me explain each point briefly before diving into the solution.
 
 #### Cure ageing by directly experimenting on humans
 
-The idea is simple enough. If ethics didn't exist, we could solve any medical problems orders of magnitude faster then we currently do.
+The idea is simple enough. If ethics didn't exist, we could solve any medical problems much faster then we currently do. We could brute force the search for the treatement that would cure ageing, and immediately validate it.
 
 #### Experiment on humans by simulating humans
 
-This satisfies our ethics problem. We would experiment on simulations of human cells and tissues and gain medical insights.
+This solves our ethics problem. We would experiment on simulations of human cells and tissues and gain medical insights, rather then on humans directly.
 
 #### Simulate humans by understanding the process of chemical evolution
 
