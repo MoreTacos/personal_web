@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Davide Radaelli</title>
@@ -10,19 +9,17 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <main class="grid-container">
-        <nav>
+    <main>
+        <div class="tldr">
             <img src="./images/davideradaelli.jpg" alt="Davide Radaelli">
             <p>{{tldr.desc}}</p>
             <p>{{tldr.looking}}</p>
             <p>Github: <a href="https://github.com/MoreTacos">@MoreTacos</a></p>
             <p>YouTube: <a href="https://www.youtube.com/channel/UCVkG6KAVgKeFphUReLiD2iQ">@DavideRadaelli</a></p>
             <p>daviderady AT gmail DOT com</p>
-        </nav>
-        <div class="column-left">
+        </div>
+        <div class="now">
             <h1>Now</h1>
             {{#each now as |n| ~}}
                 <p><a href="{{n.link}}">{{n.high}}</a> {{n.desc}}</p>
@@ -43,15 +40,14 @@
                 {{/each}}
             </ul>
         </div>
-        <div class="column-center">
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./resume.html">Resume</a></li>
-                <li><a href="https://davideradaelli.substack.com/">Newsletter</a></li>
-            </ul>
-        </div>
     </main>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="https://davideradaelli.substack.com/">Newsletter</a></li>
+        </ul>
+    </div>
 </body>
-
 </html>
