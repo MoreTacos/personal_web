@@ -18,9 +18,9 @@
 </figure>
 <p>Just make sure not to look too closely…</p>
 <p>So what I did here is really self-explanatory. I feed in a bunch of data from really good artists into an AI called a deep convolutional generative adversarial network (DCGAN), and the network learned to reuse the features of the faces, like hair and eye shape but in different combinations to synthesize new images.</p>
-<h1 id="how-it-actually-works">How it actually works</h1>
+<h2 id="how-it-actually-works">How it actually works</h2>
 <p>Fundamentally, there are two main parts to arrive at this fully trained network. First, you need to somehow collect a large dataset of well-drawn out pictures. The higher the quality the better. And then second, you need to simultaneously train two neural networks on this data: a generator that captures the distribution of the data, and a discriminator (classifier) that estimates the chance of a given image being part of the real dataset rather than coming from the generator.</p>
-<h1 id="collecting-the-data">Collecting the data</h1>
+<h2 id="collecting-the-data">Collecting the data</h2>
 <p>So let’s start with the first part, where we have to collect a dataset of top-quality anime face drawings. The secret here is that the data was collected by web scrapping from a Japanese anime website called ‘getchu.com’.</p>
 <p>Web scrapping basically means automating away the task of collecting information, in this case anime faces, from websites. I wrote a script to acquire and parse the images from the raw HTML of the web pages, and then applied an anime face detector called lbpcascade-animeface on each image to get a bounding box for the faces.</p>
 <p>I then rescaled the images to be 64x64 pixels and only used images from after 2010 since they were of the highest quality.</p>
@@ -29,9 +29,9 @@
 <img src="../images/bounding-box.jpg" alt="Bounding Box Example" /><figcaption aria-hidden="true">Bounding Box Example</figcaption>
 </figure>
 <p>And then finally, with around 20 000 images in the dataset, I went in manually and removed some of the undesired images.</p>
-<h1 id="building-and-training-the-ai">Building and training the AI</h1>
+<h2 id="building-and-training-the-ai">Building and training the AI</h2>
 <p>So I used a DCGAN, that we can kind of imagine as a mix of a convolutional neural network (CNN) and a generative adversarial network (GAN).</p>
-<h2 id="cnn">CNN</h2>
+<h4 id="cnn">CNN</h4>
 <p>What the CNN does is quite simple since all it does is recognize and store the features of an image, in this case, the hair, face, and eye shapes as well as colors of the anime faces.</p>
 <p>It takes in a 3d tensor with dimensions 3x64x64, which represents the three color channels of the images (red, green blue) and the resolution (64x64) and passes the values through a bunch of convolutional layers, which are made up of:</p>
 <p>1- A 2d convolutional transpose, which is a math operation that looks like this:</p>
@@ -46,14 +46,14 @@
 <figure>
 <img src="../images/relu.jpg" alt="ReLU Function" /><figcaption aria-hidden="true">ReLU Function</figcaption>
 </figure>
-<h2 id="gan">GAN</h2>
+<h4 id="gan">GAN</h4>
 <p>The GAN acts as a framework to capture the training data’s distribution so we can generate new data from that same distribution. In a GAN, there is a generator and a discriminator. The job of the generator is to synthesize fake images that look like the training data. The job of the discriminator is to look at an image and output whether it is a real training image or a fake from the generator.</p>
 <p>These two enter in a competition, where the generator gets better at outsmarting the discriminator, and the discriminator gets better at spotting the fakes. The ideal ending of this competition, what is what we call the ‘equilibrium’ or ‘solution’ and its the point where the discriminator always guesses 50/50 that the image shown is real (since the generator becomes perfect). Image for post</p>
 <figure>
 <img src="../images/discriminator.jpeg" alt="Discriminator" /><figcaption aria-hidden="true">Discriminator</figcaption>
 </figure>
 <p>At the end of the training, you can throw out the discriminator and use the generator to synthesize anime face images!</p>
-<h1 id="key-takeaways">Key Takeaways</h1>
+<h2 id="key-takeaways">Key Takeaways</h2>
 <ul>
 <li>Using a DCGAN with a whole bunch of data, you can make an automatic generator of whatever you want.</li>
 <li>You can collect that data from online using web scrapping.</li>
