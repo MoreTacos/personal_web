@@ -1,5 +1,5 @@
 # Simulating a Cell means more than Ageing
-*Jan 9, 2021*
+*Jan 10, 2021*
 
 A part of my plan for computational longevity is to cure ageing by experimenting without restrictions on simulations of human cells, tissues and organs. While its true we could cure ageing this way, its also true that we'd be able to solve any medical problem that way. I can pivot my focus on the salvation of all human disease (including ageing).
 
