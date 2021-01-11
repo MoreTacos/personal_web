@@ -26,6 +26,6 @@ We still can't create life in a lab. Biology is too complex. But if we could com
 
 With enough trial and error, we are bound to discover the a recipe for life. We would simulate a wide array of combinations of chemicals, and through brute force, find promissing combinations that can then be experimentally confirmed to work in a lab. If we managed to simulate the evolution of molecules into something alive, then nothing is stopping up from scaling up that simulation into cells and tissues and organs, and eventually humans.
 
-# My proposal
+## My proposal
 
 By introducing machine learning techiques to chemical evolution research, we will be able to understand life, and create simulations of cells that we will use to gain valuable medical insights.
