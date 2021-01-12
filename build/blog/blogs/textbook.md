@@ -1,4 +1,4 @@
-# One Textbook A Day
+# One Textbook a Day
 *Jan 4, 2021*
 
 There is an awful paradox when it comes to self-learning math: we’re often suggested textbooks, courses and playlists, but we never end up listening to them! And sometimes that means missing out on some amazing content. Progress in math cannot be made overnight, and must instead be acquired over a long period.

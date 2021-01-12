@@ -1,4 +1,4 @@
-# The intuition for ERNIE 2.0 — Language Understanding
+# The Intuition for ERNIE 2.0 — Language Understanding
 *Sep 6, 2019*
 
 Natural language processing (NLP) has been a leading sub-field of machine learning, with pre-trained networks showing dominant results in various language understanding tasks. Part of this sub-group is a recently published paper from the researchers at Baidu, who propose a brand new framework architecture named ERNIE 2.0 that has achieved state-of-the-art performance. In this text, we will provide intuition behind the core concepts of ERNIE 2.0 in addition to a solid framework for understanding the newest developments in natural language processing.

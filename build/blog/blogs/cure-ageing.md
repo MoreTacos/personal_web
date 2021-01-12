@@ -1,4 +1,4 @@
-# I Want To Cure Ageing
+# I Want to Cure Ageing
 *Jan 9, 2021*
 
 I want to cure ageing. Here's my hypothesis on how to do it:

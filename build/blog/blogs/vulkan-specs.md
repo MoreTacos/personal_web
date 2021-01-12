@@ -1,4 +1,4 @@
-# Learn Vulkan by Diving into the Specs
+# Learn Vulkan by Diving Into the Specs
 *Nov 11, 2020*
 
 A few weeks ago, I started learning about [Vulkano](https://github.com/vulkano-rs/vulkano), which is a safe Rust wrapper around the Vulkan graphics API. I debated whether starting with OpenGL was a better choice, but stuck with Vulkan in the end because it better reflects the process of running programs on graphics hardware architectures.
