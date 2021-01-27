@@ -1,5 +1,5 @@
 [tldr]
-desc = "18 y/o machine learning and computer graphics developper"
+desc = "18 y/o finding the origins of life to simulate a cell | Davide Radaelli"
 looking = "Searching for Summer 2021 lab position"
 
 [[now]]
@@ -7,9 +7,9 @@ high = "Making"
 desc = "a from scratch fluid simulation with Rust and Vulkan"
 link = "https://davideradaelli.substack.com/p/get-obsessed-with-simple-things"
 [[now]]
-high = "Reading"
-desc = "various SIGGRAPH research papers"
-link = "#"
+high = "Thinking"
+desc = "about longevity and how we can cure ageing"
+link = "./blog/cure-ageing.html"
 [[now]]
 high = "Explaining"
 desc = "math intuitively using Manim"
