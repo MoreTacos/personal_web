@@ -21,6 +21,7 @@ cd ./../../../blog
 for i in ../build/blog/blogs/*.md; do
     a=$(basename $i)
     b="${a%.*}.html"
+    rm $b
     pandoc $i >> "./temp.html"
     cp ./../build/blog/blog.hbs ./
     echo "${a%.*}" | ./../build/blog/blog-sub-script >> $b

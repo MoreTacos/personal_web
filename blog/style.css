@@ -17,7 +17,22 @@ body {
 }
 
 body p {
-    padding-top: 0.8em;
+    padding-top: 0.5em;
+    font-size: 1.2em;
+}
+
+main {
+    margin-bottom: 3em;
+}
+
+main img {
+    width: 100%;
+    padding-top: 0.5em;
+    max-height: 700px;
+}
+
+main pre {
+    padding-top: 0.5em;
     font-size: 1.2em;
 }
 
@@ -26,13 +41,16 @@ main ul {
     font-size: 1.2em;
 }
 
+main ul li {
+    padding-top: 0.5em;
+}
+
 main ol {
     padding-left: 1em;
 }
 
 main hr {
     margin-top: 1em;
-    margin-bottom: 1em;
 }
 
 main div {
@@ -46,18 +64,18 @@ h1 {
 }
 
 h2 {
-    padding-top: 2.5em;
-    font-size: 2em;
-}
-
-h3 {
-    padding-top: 2.2em;
+    padding-top: 1.5em;
     font-size: 1.8em;
 }
 
-h4 {
-    padding-top: 2em;
+h3 {
+    padding-top: 1.3em;
     font-size: 1.5em;
+}
+
+h4 {
+    padding-top: 1.2em;
+    font-size: 1.2em;
 }
 
 nav ul {

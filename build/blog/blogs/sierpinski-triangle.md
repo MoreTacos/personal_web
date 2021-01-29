@@ -1,4 +1,4 @@
-# Simple Intuitive Explanation on How to Render a Sierpinski Triangle With OpenGL
+# Render a Sierpinski Triangle With OpenGL
 *Sep 9, 2020*
 
 While learning OpenGL over at [learnopengl.com](https://learnopengl.com/), I came across the following images in the comment section.

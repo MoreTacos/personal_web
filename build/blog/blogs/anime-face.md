@@ -52,7 +52,6 @@ It takes in a 3d tensor with dimensions 3x64x64, which represents the three colo
 The GAN acts as a framework to capture the training data’s distribution so we can generate new data from that same distribution. In a GAN, there is a generator and a discriminator. The job of the generator is to synthesize fake images that look like the training data. The job of the discriminator is to look at an image and output whether it is a real training image or a fake from the generator.
 
 These two enter in a competition, where the generator gets better at outsmarting the discriminator, and the discriminator gets better at spotting the fakes. The ideal ending of this competition, what is what we call the ‘equilibrium’ or ‘solution’ and its the point where the discriminator always guesses 50/50 that the image shown is real (since the generator becomes perfect).
-Image for post
 
 ![Discriminator](../images/discriminator.jpeg)
 
