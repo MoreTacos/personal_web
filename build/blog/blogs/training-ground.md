@@ -7,7 +7,7 @@ For a long time, I didn't consider myself capable of changing the world *right n
 
 A lot of people want to impact the world the Elon way. That is, start an unrelated company like zip2 and PayPal. When that company is successful, use the capital to create the initiative you genuinely are about (SpaceX, Tesla, Boring, Neuralink, OpenAI).
 
-This might feel like the right way to execute your vision. But I think there is a massive pitfall that most people don't consider. Many people are still working on an unrelated project for years of their life.
+This might feel like the right way to execute your vision. But I think there is a massive pitfall that most people don't consider. *Many people are still working on an unrelated project for years of their life*.
 
 It makes more sense to start working directly on what you care about. Unrelated startups can take much longer than you initially think. For example, Larry Page started Google in 2001, and only recently in 2019 did he finally step down. Supposing he was doing all this to make money for a vision he had, he could have directly worked on his vision.
 
