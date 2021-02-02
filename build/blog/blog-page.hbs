@@ -16,7 +16,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&amp;family=Roboto:ital,wght@0,400;0,600;1,400;1,700&amp;display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <main>
@@ -25,16 +25,16 @@
             <h1>Blog Archive</h1>
             <ul>
                 {{#each this}}
-                    <li><a href="./blog/{{link}}.html">{{title}}</a></li>
+                    <li><a href="/blog/{{link}}.html">{{title}}</a></li>
                 {{/each}}
             </ul>
         </div>
     </main>
     <nav>
         <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/resume.html">Resume</a></li>
             <li><a href="https://davideradaelli.substack.com/">Newsletter</a></li>
         </ul>
     </nav>

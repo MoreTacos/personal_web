@@ -9,7 +9,7 @@ cp ./target/release/blog-main-script ./../
 cd ./..
 
 # ./build/blog
-./blog-main-script > ../../blog.html
+./blog-main-script > ../../blog/index.html
 cd ./blog-sub
 
 # ./build/blog/blog-sub
