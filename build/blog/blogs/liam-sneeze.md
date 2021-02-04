@@ -26,3 +26,7 @@ One of my big goals is to set up a germ center. A powerful brand for myself. I'd
 In effect, this blog is also a germ. Maybe even a super germ?! Of course, only time will tell.
 
 #### Please follow Liam on [Twitter](https://twitter.com/LiamHinzman)
+
+## Edit: Interesting thoughts by [Adar Kahiri](https://twitter.com/AdarKahiri)
+
+Another idea is that in addition of seeking to become patient zero of good ideas, you should also seek to become more susceptible to good infections.
