@@ -1,7 +1,7 @@
 # Liam Sneezed On Me
 *Jan 15, 2021*
 
-*No, Liam did not actually sneeze on me. This is about memetic theory. If you don’t know about memetics, I encourage you to watch [this](https://www.youtube.com/watch?v=rE3j_RHkqJc&list=LLdHOFqbEXljMVlPA7I46ehw&index=2055) CGP Grey video.*
+*No, Liam Hinzman did not actually sneeze on me. This is about memetic theory. If you don’t know about memetics, I encourage you to watch [this](https://www.youtube.com/watch?v=rE3j_RHkqJc&list=LLdHOFqbEXljMVlPA7I46ehw&index=2055) CGP Grey video.*
 
 Months ago I had a great spontaneous chat with Liam. One of those chats that you remember for a long time. And he shocked me. He was moving to a hacker house in New Mexico!
 

@@ -15,7 +15,7 @@ I'm not saying Larry and Elon are mistaken. Internet technologies were their vis
 
 What about the opposite kind of person?
 
-I would point to Elizabeth Holmes from Theranos. I totally disagree with the execution of her idea, but there is something to be said about the principle. She didn't have any capital to speak of and convinced these rich investors to give her a load of money.
+I would point to Elizabeth Holmes from Theranos. I totally disagree with the execution of her idea, but there is something to be said about the principle (CLARIFICATION: I TOTALLY disagree with the way she executed her idea. I've read 'Bad Blood' and I'm shocked at just how horrifying Theranos was). She didn't have any capital to speak of and convinced these rich investors to give her a load of money.
 
 If your vision is really that good, then go and pitch it right now. Get really good at pitching it. And eventually, get money for it.
 
