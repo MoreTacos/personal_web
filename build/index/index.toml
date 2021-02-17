@@ -3,17 +3,17 @@ desc = "18 y/o finding the origins of life to simulate a cell | Davide Radaelli"
 looking = "Searching for Summer 2021 lab position"
 
 [[now]]
-high = "Making"
-desc = "a from scratch fluid simulation with Rust and Vulkan"
-link = "https://davideradaelli.substack.com/p/get-obsessed-with-simple-things"
+high = "Living"
+desc = "in Salt Lake City with a group of 14 founders / developers"
+link = "https://edyfi.co/"
+[[now]]
+high = "Organizing"
+desc = "a new way of learning math with a group of curious students"
+link = "https://davideradaelli.substack.com/p/perfect-quantum-simulations"
 [[now]]
 high = "Thinking"
 desc = "about longevity and how we can cure ageing"
-link = "./blog/cure-ageing.html"
-[[now]]
-high = "Explaining"
-desc = "math intuitively using Manim"
-link = "https://www.youtube.com/watch?v=vl9jIeb95Sc"
+link = "/blog/cure-ageing.html"
 
 [[work]]
 name = "Toronto Gymnastics International"
@@ -33,10 +33,6 @@ high = "Used"
 desc = "GPT2 to generate some Paul Graham essays"
 link = "https://www.youtube.com/watch?v=iLrD0E1R1Zg"
 [[done]]
-high = "Wrote"
-desc = "a simple explanation for an NLP research paper"
-link = "https://daviderad.com/blog/ernie-intuitive.html"
-[[done]]
-high = "Created"
-desc = "an anime face generator using a GAN to help me draw"
-link = "https://www.youtube.com/watch?v=UQZHojA3O50"
+high = "Making"
+desc = "a from scratch fluid simulation with Rust and Vulkan"
+link = "https://davideradaelli.substack.com/p/get-obsessed-with-simple-things"

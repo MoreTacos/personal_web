@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # ./build
 cd ./blog/blog-main/
