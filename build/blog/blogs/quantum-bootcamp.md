@@ -1,11 +1,13 @@
-# Quantum Mechanics Bootcamp
+# Quantum Mechanics Mafia
 *Feb 23, 2021*
 
 PREREQUISITES: *NONE*
 
+The Paypal Mafia of quantum computing.
+
 To do good in anything related to quantum, you must be good at math. Imagine having the same intuition as Richard Feynman. You could make progress and contribute easily.
 
-I'm starting a group with precisely that goal.
+We're starting a group with precisely that goal.
 
 Using a VERY unique way of learning.
 
@@ -41,7 +43,7 @@ We may decide to continue that course to a Ph.D. level understanding.
 
 You are free to quit at any point.
 
-Apply by sending me an email. I am accepting 5 people. The course is starting ~March 1st. For people in TKS, be careful: you have a challenge during that period. I personally think this is 10x more useful but you do you.
+Apply by sending me an email. We are accepting 5 people. The course is starting ~March 1st. For people in TKS, be careful: you have a challenge during that period. We think this is 10x more useful. But you do you.
 
 ## FAQ
 
@@ -49,7 +51,7 @@ Apply by sending me an email. I am accepting 5 people. The course is starting ~M
 
 No. We are learning theoretical physics from first principles. Only logic and hard work is required.
 
-### How will this help me with QC? I expect a bootcamp on QM to cover uncertainty, particles/waves, harmonic oscillator, time evolution of hamiltonians etc.
+### How will this help me with QC? I expect a course on QM to cover uncertainty, particles/waves, harmonic oscillator, time evolution of hamiltonians etc.
 
 In this case that stuff is the flashy stuff. To get a deep understanding it goes like this:
 
