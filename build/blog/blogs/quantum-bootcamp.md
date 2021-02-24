@@ -43,7 +43,7 @@ We may decide to continue that course to a Ph.D. level understanding.
 
 You are free to quit at any point.
 
-Apply by sending me an email. We are accepting 5 people. The course is starting ~March 1st. For people in TKS, be careful: you have a challenge during that period. We think this is 10x more useful. But you do you.
+Apply by sending me an email. The course is starting ~March 1st. For people in TKS, be careful: you have a challenge during that period. We think this is 10x more useful. But you do you.
 
 ## FAQ
 
@@ -66,3 +66,22 @@ When something is important, you make time for it. You probably waste ~2h everyd
 This is a lot closer to a fiction reading club than a rigorous course. It will be enjoyable to learn math using this format. Spending hours won't even bother you.
 
 If this is not sustainable for you, then I encourage you to quit it. I'm also a busy person! But I'm making sure this doesn't feel like work to me. Check out [my post on flow states](/blog/flow-games.html) for more info.
+
+### University students spend years learning these subjects - how am I going to learn this in 1 week?
+
+The idea is that it's a forcing function for constant exposure to mathematics. We're starting off hard with 1 session per day for 7 days, but then chilling and going slower.
+
+And it's also a first principles approach to math. It all builds up from pure logic hence with enough hard work it will click.
+
+For example consider child prodigies like Tarry Tao. The reason they get got so good is through constant exposure. They enjoyed it and so continued to expose themselves to the math.
+
+
+## Current Members of the Mafia
+
+- [Davide Radaelli](https://daviderad.com/)
+- [Jack Ceroni](https://lucaman99.github.io/)
+- [Maggie Li](https://twitter.com/maggie_1i)
+- [Tam An Le Quang](https://www.linkedin.com/in/tam-an-le-quang/?originalSubdomain=ca)
+- [Dickson Wu](https://www.linkedin.com/in/real-dickson-wu/?originalSubdomain=ca)
+- [Pavan Jayasinha](https://www.linkedin.com/in/pavan-jayasinha-6b06b71b6/?originalSubdomain=ca)
+- [Andrew Krechmer](https://www.linkedin.com/in/andrew-krechmer-bb1279180/)
