@@ -23,7 +23,7 @@ These are the main principles:
 
 3. Question the obvious. Learn to be very skeptical when everyone talks about something as though it's obvious. Challenge their explanation.
 
-This course is rigorous. We will be proceeding at a breakneck pace—one lesson per day. Every lesson takes hours of prep. This is not an easy commitment. Think carefully before applying.
+This course is rigorous. We will be proceeding at a breakneck pace—one lesson per week. Every lesson takes hours of prep. This is not an easy commitment. Think carefully before applying.
 
 The curriculum is as follows:
 
