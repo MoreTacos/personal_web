@@ -3,11 +3,13 @@
 
 PREREQUISITES: *NONE*
 
-The Paypal Mafia of quantum computing.
+Named after the Paypal Mafia.
+
+Some fancy things you will learn by participating: Formal proofs; ZFC axioms; Construction of N, Z, Q, R; Topological spaces; Manifolds, Multilinear algebra; Bundles, Tensors, Hilbert spaces, Lie algebra;
 
 To do good in anything related to quantum, you must be good at math. Imagine having the same intuition as Richard Feynman. You could make progress and contribute easily.
 
-We're starting a group with precisely that goal.
+We've starting a group with precisely that goal.
 
 Using a VERY unique way of learning.
 
@@ -23,27 +25,22 @@ These are the main principles:
 
 3. Question the obvious. Learn to be very skeptical when everyone talks about something as though it's obvious. Challenge their explanation.
 
-This course is rigorous. We will be proceeding at a breakneck pace—one lesson per week. Every lesson takes hours of prep. This is not an easy commitment. Think carefully before applying.
+We are doing one session per week on sunday's. However every session takes hours of prep. This is not an easy commitment. Think carefully before applying.
 
 The curriculum is as follows:
 
-- Day 1 - [Intro to propositional and predicate logic](https://www.youtube.com/watch?v=V49i_LM8B0E&list=PLPH7f_7ZlzxTi6kS4vCmv4ZKm9u8g5yic&index=1)
-- Day 2 - [Axioms of set theory](https://www.youtube.com/watch?v=AAJB9l-HAZs&list=PLPH7f_7ZlzxTi6kS4vCmv4ZKm9u8g5yic&index=2)
-- Day 3 - [Classification of sets](https://www.youtube.com/watch?v=6EIWRg-6ftQ&list=PLPH7f_7ZlzxTi6kS4vCmv4ZKm9u8g5yic&index=3)
-- Day 4 - [Topological spaces](https://www.youtube.com/watch?v=1wyOoLUjUeI&list=PLPH7f_7ZlzxTi6kS4vCmv4ZKm9u8g5yic&index=4)
-- Day 5 - [Topology](https://www.youtube.com/watch?v=7G4SqIboeig&list=PLFeEvEPtX_0S6vxxiiNPrJbLu9aK1UVC_&index=1)
-- Day 6 - [Topological manifolds](https://www.youtube.com/watch?v=93f-ayezCqE&list=PLFeEvEPtX_0S6vxxiiNPrJbLu9aK1UVC_&index=2)
-- Day 7 - [Multilinear Algebra](https://www.youtube.com/watch?v=mbv3T15nWq0&list=PLFeEvEPtX_0S6vxxiiNPrJbLu9aK1UVC_&index=3)
-- Day 8 - Big review
-- Day X - To be decided after the big review
+- Week 1 - [Intro to propositional and predicate logic](https://youtu.be/V49i_LM8B0E) | [Session 1](https://youtu.be/ya4rlh98vrw)
+- Week 2 - [Axioms of set theory](https://youtu.be/AAJB9l-HAZs) | [Session 2](https://youtu.be/U36wuU01rhA)
+- Week 3 - [Classification of sets](https://youtu.be/6EIWRg-6ftQ) | [Session 3](https://youtu.be/AdJfsmN2rF0)
+- Week 4 - [Topology](https://youtu.be/7G4SqIboeig)
+- Week 5 - [Topological manifolds](https://youtu.be/93f-ayezCqE)
+- Week 6 - [Multilinear Algebra](https://youtu.be/mbv3T15nWq0)
+- Week 7 - Big review
+- Week X - To be decided after the big review
 
-By the end of this course, you will have an undergrad-level understanding of quantum mechanics.
+We are committed to long term learning. Consistancy is better then rushing a bootcamp.
 
-We may decide to continue that course to a Ph.D. level understanding.
-
-You are free to quit at any point.
-
-Apply by sending me an email. The course is starting ~March 1st. For people in TKS, be careful: you have a challenge during that period. We think this is 10x more useful. But you do you.
+To apply send me an email and I'll see what I can do to help you join.
 
 ## FAQ
 
@@ -79,11 +76,8 @@ For example consider child prodigies like Tarry Tao. The reason they get got so 
 ## Current Members of the Mafia
 
 - [Davide Radaelli](https://daviderad.com/)
-- [Jack Ceroni](https://lucaman99.github.io/)
-- [Maggie Li](https://twitter.com/maggie_1i)
 - [Lana Bozanic](https://twitter.com/lanabozanic)
-- [Tam An Le Quang](https://www.linkedin.com/in/tam-an-le-quang/?originalSubdomain=ca)
-- [Dickson Wu](https://www.linkedin.com/in/real-dickson-wu/?originalSubdomain=ca)
-- [Pavan Jayasinha](https://www.linkedin.com/in/pavan-jayasinha-6b06b71b6/?originalSubdomain=ca)
-- [Andrew Krechmer](https://www.linkedin.com/in/andrew-krechmer-bb1279180/)
-- [Simone Lilavois](https://www.linkedin.com/in/simone-lilavois-b788321b7/)
+- [Tam An Le Quang](https://twitter.com/TamAnLeQuang1)
+- [Dickson Wu](https://twitter.com/DicksonWu3)
+- [Avneesh Verma](https://www.linkedin.com/in/avneesh-verma)
+- [Adar Kahiri](https://twitter.com/AdarKahiri)
