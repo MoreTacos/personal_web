@@ -1,18 +1,18 @@
 [tldr]
-desc = "18 y/o finding the origins of life to simulate a cell | Davide Radaelli"
-looking = "Searching for Summer 2021 lab position"
+desc = "18 y/o quantum software, fullstack and computer graphics developer | Davide Radaelli"
+looking = "I love learning math and rust programming in my free time"
 
 [[now]]
 high = "Living"
 desc = "in Salt Lake City with a group of 14 founders / developers"
-link = "https://edyfi.co/"
+link = "https://edyfi.org/"
 [[now]]
-high = "Organizing"
-desc = "a new way of learning quantum mechanics with a group of curious students"
+high = "Learning"
+desc = "mathematical physics from first principles with a group of students"
 link = "/blog/quantum-bootcamp.html"
 [[now]]
 high = "Thinking"
-desc = "about longevity and how we can cure ageing"
+desc = "about longevity and how we can cure ageing using quantum simulations of chemistry"
 link = "/blog/cure-ageing.html"
 
 [[work]]
