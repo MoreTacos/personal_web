@@ -1,4 +1,4 @@
-# The Real Way of Learning to Program
+# Learn Real Programming
 *Mar 23, 2021*
 
 Deploying a website. Using git for version management. Contributing to open source.
