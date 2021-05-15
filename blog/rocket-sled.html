@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157830422-1"></script>
+	<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-157830422-1');
+	</script>
+	<meta charset="UTF-8">
+    <title>Guide to Using Rocket With Sled in Production | Davide Radaelli</title>
+    <meta name="description" content="Alright let&#x27;s cut right to it. If you&#x27;re using a different version of rocket (0.4) or sled (0.34) then me then some of this stuff won&#x27;t be valid. Consider this article a checklist of things you want to consider when building a rocket+sled app.
+">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&amp;family=Roboto:ital,wght@0,400;0,600;1,400;1,700&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<div>
+			<h1 id="guide-to-using-rocket-with-sled-in-production">Guide to Using Rocket With Sled in Production</h1>
+<p><em>May 14, 2021</em></p>
+<p>Alright let’s cut right to it. If you’re using a different version of rocket (0.4) or sled (0.34) then me then some of this stuff won’t be valid. Consider this article a checklist of things you want to consider when building a rocket+sled app.</p>
+<h3 id="advice-1">Advice 1</h3>
+<p>Use rocket::ignite().manage(Database{ … }) when initializing rocket to have access to your database on all routes.</p>
+<p>You can add db: State&lt;Database&gt; as an argument to whatever route you define to have access to your DB.</p>
+<h3 id="advice-2">Advice 2</h3>
+<p>Sled’s IVec’s are kind of difficult to deal with at first.</p>
+<p>The way I like to think of it is that IVec is similar to binary. Basically you gotta explain to sled how to store your structs in the DB.</p>
+<p>Some types already have a as_bytes method on them (String for example). But for more complicated structs you have to explain yourself to sled. Thankfully it’s quite easy with the bincode library, which you can slap on a struct as an impl method named as_bytes or similar.</p>
+<p>Then for deserializing, you need to explain to sled how to go from bytes to Rust types.</p>
+<p>Some types already have this implemented (String from_utf8 for example). But for more complicated structs you gotta (again) do it yourself. You can again use bincode for easy deserializing.</p>
+<p>Tip: consider implementing Rust’s From traits for both ways</p>
+<h3 id="advice-3">Advice 3</h3>
+<p>Standardize your database calls by implementing a DatabaseExt trait for State&lt;’_, Database&gt;.</p>
+<p>You’re constantly going to be needing the same DB information across different routes, so why not standardize it?</p>
+<p>Specifically, you need to create a DatabaseExt trait with methods you use constantly like get_user, update_user etc.</p>
+<p>Then you implement that trait on the external type (in this case impl DatabaseExt for State&lt;’_, Database&gt;).</p>
+<p>And from now on you can call db.get_user() or any other method you’ve implemented.</p>
+<h2 id="final-words">Final words</h2>
+<p>The truth is that there are very few articles out there explaining the issues that you’ll be dealing with on your journey. But that’s OK. Figure things out.</p>
+<p>If you are really trying to build a production app in Rust+Rocket+Sled, my best advice is go look at code that’s already out there and analyze the hell out of it. Take a look at <a href="https://github.com/MoreTacos/skilltree">my repo</a> or <a href="https://github.com/alepez/devand">Dev and dev’s repo</a> (which I used heavily myself). Go back to previous commits and understand what’s going on.</p>
+<p>And if you have any questions, feel free to ask the community! (or me)</p>
+
+        </div>
+	</main>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/blog">Blog</a></li>
+			<li><a href="/resume.html">Resume</a></li>
+			<li><a href="https://davideradaelli.substack.com/">Newsletter</a></li>
+		</ul>
+	</nav>
+</body>
+</html>
+
