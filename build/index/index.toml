@@ -1,19 +1,19 @@
 [tldr]
-desc = "19 y/o math enthusiast, fullstack and computer graphics developer | Davide Radaelli"
-looking = "I love learning math and rust programming in my free time"
+desc = "19 y/o running SkillTree and the Quantum Mafia | Davide Radaelli"
+looking = "I love learning math and rust programming"
 
 [[now]]
-high = "Lived"
-desc = "in Salt Lake City with a group of 14 founders / developers"
-link = "https://edyfi.org/"
-[[now]]
 high = "Learning"
-desc = "mathematical physics from first principles with a group of students"
+desc = "mathematical physics from first principles with a group of curious students"
 link = "https://mafiaquantum.com/"
 [[now]]
-high = "Thinking"
-desc = "about longevity and how we can cure ageing using quantum simulations of chemistry"
-link = "/blog/cure-ageing.html"
+high = "Coliving"
+desc = "in communities around the world: Toronto, Salt Lake City, San Francisco, Milan"
+link = "https://edyfi.org/"
+[[now]]
+high = "Running"
+desc = "a B2B SaaS company focused on gymnastics and other sports"
+link = "https://gymskilltree.com/"
 
 [[work]]
 name = "Toronto Gymnastics International"
